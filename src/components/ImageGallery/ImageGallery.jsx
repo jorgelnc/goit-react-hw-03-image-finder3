@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Container from '../Container/Container';
-import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
-import Loader from '../Loader/Loader';
-import Button from '../Button/Button';
+import Container from 'components/Container';
+import ImageGalleryItem from 'components/ImageGalleryItem';
+import Loader from 'components/Loader';
+import Button from 'components/Button';
 import { fetchImages } from 'services/images-api';
 import s from './ImageGallery.module.css';
 import { toast } from 'react-toastify';
